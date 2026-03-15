@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+# Gradle wrapper script
+GRADLE_VERSION=8.5
+GRADLE_DIST_URL=https\://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip
+
+APP_HOME="$(cd "$(dirname "$0")" && pwd)"
+exec "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" "$@"
